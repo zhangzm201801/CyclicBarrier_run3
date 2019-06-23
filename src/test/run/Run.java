@@ -12,6 +12,8 @@ public class Run {
 		a.start();
 		MyThreadB b = new MyThreadB(service);
 		b.start();
+		MyThreadB c = new MyThreadB(service);
+		c.start();
 	}
 
 }
